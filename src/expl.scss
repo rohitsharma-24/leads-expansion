@@ -1,0 +1,11 @@
+@import '~@capterra/arubaito/dist/variables.scss';
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.app-wrapper {
+  max-width: 1200px;
+  margin: $TOKEN_SIZE_BASE_XL auto;
+}

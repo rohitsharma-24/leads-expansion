@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Less than $1 million",
+    "value": 1
+  },
+  {
+    "label": "$1 million to $5 million",
+    "value": 2
+  },
+  {
+    "label": "$5 million to $10 million",
+    "value": 3
+  },
+  {
+    "label": "$10 million to $25 million",
+    "value": 4
+  },
+  {
+    "label": "$25 million to $50 million",
+    "value": 5
+  },
+  {
+    "label": "$50 million to $100 million",
+    "value": 6
+  },
+  {
+    "label": "$100 million to $500 million",
+    "value": 7
+  },
+  {
+    "label": "$500 million to $1 billion",
+    "value": 8
+  },
+  {
+    "label": "Greater than $1 billion",
+    "value": 9
+  }
+]

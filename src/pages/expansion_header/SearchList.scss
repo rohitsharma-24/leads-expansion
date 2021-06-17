@@ -1,0 +1,12 @@
+.search-list-wrapper {
+  display: flex;
+  align-items: baseline;
+
+  > span {
+    margin-right: 10px;
+  }
+
+  .search-list {
+    width: 250px;
+  }
+}
