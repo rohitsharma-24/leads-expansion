@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import App from './App';
 // import '@capterra/arubaito/dist/utility.min.css';
 // import '@capterra/arubaito/dist/arubaito_component.min.css';

@@ -1,23 +1,23 @@
 export let NAV_ROUTES = [
   {
-    match: (path) => path === '/vp',
-    path: '/vp',
+    match: (path) => path === '/',
+    path: '/',
     name: 'Dashboard'
   },
   {
-    basePath: '/vp/insights',
+    basePath: '/insights',
     match: (path) => path.match(/\/insights/),
-    path: '/vp/insights/clicks',
+    path: '/insights/clicks',
     name: 'Insights',
   },
   {
     match: (path) => path.match(/\/(listings|products)/),
-    path: '/vp/listings',
+    path: '/listings',
     name: 'Listings'
   },
   {
     match: (path) => path.match(/\/ppl/),
-    path: '/vp/ppl/bids',
+    path: '/ppl',
     name: 'PPL'
   },
   {
@@ -27,17 +27,17 @@ export let NAV_ROUTES = [
   },
   {
     match: (path) => path.match(/\/reviews/) && !path.match(/\/reviews_/),
-    path: '/vp/reviews',
+    path: '/reviews',
     name: 'Reviews'
   },
   {
     match: (path) => path.match(/\/resources/),
-    path: '/vp/resources',
+    path: '/resources',
     name: 'Resources'
   },
   {
     match: (path) => path.match(/\/bidding/),
-    path: '/vp/bidding',
+    path: '/bidding',
     name: 'Bidding'
   },
 ];
