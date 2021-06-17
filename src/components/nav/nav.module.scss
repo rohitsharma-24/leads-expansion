@@ -1,0 +1,37 @@
+@import '@capterra/arubaito/dist/variables.scss';
+@import '../../shared/styles/breakpoints.scss';
+
+.navWrapper {
+  background-color: $TOKEN_COLOR_BASE_BRAND_PRIMARY;
+  padding: $TOKEN_SIZE_BASE_MD $TOKEN_SIZE_BASE_XS $TOKEN_SIZE_BASE_XS $TOKEN_SIZE_BASE_XS;
+  div[class^='nav__dropdown'] {
+    z-index: $TOKEN_Z_INDEX_BASE_DIALOG;
+  }
+};
+
+.navInnerWrapper {
+  max-width: $desktop;
+  margin: 0 auto;
+  text-align: center;
+
+  @media screen and (min-width: $tablet) {
+    text-align: left;
+  };
+};
+
+.logo-wrapper {
+  a {
+    display: inline-block;
+  }
+};
+
+.app-logo {
+  width: 100%;
+  max-width: 314px;
+};
+
+.account-wrapper {
+  position: absolute;
+  top: $TOKEN_SIZE_BASE_XS;
+  right: $TOKEN_SIZE_BASE_XS;
+};

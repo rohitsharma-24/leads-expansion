@@ -1,15 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import LeadExpansion from './expl';
-import '@capterra/arubaito/dist/utility.min.css';
-import '@capterra/arubaito/dist/arubaito_component.min.css';
-// import App from './App';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
+// import '@capterra/arubaito/dist/utility.min.css';
+// import '@capterra/arubaito/dist/arubaito_component.min.css';
+import './index.scss';
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LeadExpansion />
+    <Router>
+      <App />
+    </Router> 
   </React.StrictMode>,
   document.getElementById('root')
 );

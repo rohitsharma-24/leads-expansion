@@ -1,0 +1,30 @@
+@import '@capterra/arubaito/dist/variables.scss';
+@import '../../shared/styles/breakpoints.scss';
+
+.footer {
+  position: relative;
+  width: 100%;
+  max-width: $desktop;
+  margin: 0 auto;
+  padding: $TOKEN_SIZE_BASE_MD 0 $TOKEN_SIZE_BASE_XS 0;
+  text-align: center;
+};
+
+.list-wrapper {
+  border-top: 1px solid $TOKEN_COLOR_BASE_BRAND_PRIMARY;
+  padding: 0;
+  padding-top: $TOKEN_SIZE_BASE_SM;
+  list-style-type: none;
+  li {
+    display: inline-block;
+    padding: 0 $TOKEN_SIZE_BASE_SM;
+  }
+};
+
+.modal-container {
+  div[class^="modal__modalContainer"] {
+    max-height: 90vh;
+    overflow: scroll;
+    width: 528px;
+  }
+}

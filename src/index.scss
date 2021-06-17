@@ -1,0 +1,60 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+/* body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+@import-normalize; /* bring in normalize.css styles */
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('./assets/fonts/Graphik-Regular-Web.eot');
+	src: url('./assets/fonts/Graphik-Regular-Web.woff') format('woff'),
+		 url('./assets/fonts/Graphik-Regular-Web.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+};
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('./assets/fonts/Graphik-Bold-Web.eot');
+	src: url('./assets/fonts/Graphik-Bold-Web.woff') format('woff'),
+		 url('./assets/fonts/Graphik-Bold-Web.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+};
+
+@font-face {
+	font-family: 'Graphik';
+	src: url('./assets/fonts/Graphik-Medium-Web.eot');
+	src: url('./assets/fonts/Graphik-Medium-Web.woff') format('woff'),
+		 url('./assets/fonts/Graphik-Medium-Web.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+};
+
+body {
+  margin: 0;
+  font-family: 'Graphik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

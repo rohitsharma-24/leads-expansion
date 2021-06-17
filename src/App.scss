@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 } */
+@import '@capterra/arubaito/dist/variables.scss';
+@import './shared/styles/breakpoints.scss';
+
+.main {
+  position: relative;
+  width: 100%;
+  max-width: $desktop;
+  margin: 0 auto;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+};
+
